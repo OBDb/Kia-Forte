@@ -1,0 +1,32 @@
+command_id: 770.778.22BC04
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    778100B62BC04B53770
+    778212000000E00AAAA
+  expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 0
+- response: |-
+    778100B62BC04B53770
+    778212001000E00AAAA
+  expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 0
+- response: |-
+    778100B62BC04B53770
+    77821200C000E00AAAA
+  expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 1
+- response: |-
+    778100B62BC04B53770
+    77821200D000E00AAAA
+  expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 1

@@ -1,0 +1,145 @@
+command_id: 7DF.7E8.0134
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8064134702E7F7D
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.992
+- response: 7E80641347B8F7FDC
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.9978
+- response: 7E80641347BAF7FDD
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99786
+- response: 7E80641347BEF7FDF
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99799
+- response: 7E80641347C4F7FE3
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99823
+- response: 7E80641347CEF7FE8
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99854
+- response: 7E80641347D2F7FE9
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.9986
+- response: 7E80641347D4F7FEB
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99872
+- response: 7E80641347DAF7FED
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99884
+- response: 7E80641347DEF7FEF
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99896
+- response: 7E80641347E0F7FEF
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99896
+- response: 7E80641347E0F7FF0
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99902
+- response: 7E80641347E2F7FF0
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99902
+- response: 7E80641347E2F7FF1
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99908
+- response: 7E80641347E4F7FF1
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99908
+- response: 7E80641347E6F7FF2
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99915
+- response: 7E80641347E8F7FF3
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99921
+- response: 7E80641347EAF7FF4
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99927
+- response: 7E80641347ECF7FF4
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99927
+- response: 7E80641347F2F7FF7
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99945
+- response: 7E80641347F2F7FF8
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99951
+- response: 7E80641347F4F7FF8
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99951
+- response: 7E80641347F6F7FF8
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99951
+- response: 7E80641347F8F7FFA
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99963
+- response: 7E80641347FAF7FFA
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99963
+- response: 7E80641347FCF7FFB
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99969
+- response: 7E806413480107FFD
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99982
+- response: '7E806413480108000'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E806413480307FFE
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99988
+- response: 7E806413480507FFE
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99988
+- response: 7E806413480707FFF
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99994
+- response: 7E806413480907FFF
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99994
+- response: 7E806413480B08000
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E806413480D08000
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E806413480F08001
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413481108001'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413481508003'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E806413481D08005
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E806413481F08005
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413482108006'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413482708007'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413482708008'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413482908008'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: '7E806413485308013'
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E8064134A6348086
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E8064134FFFF8257
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
+- response: 7E8064134FFFF8274
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 2
