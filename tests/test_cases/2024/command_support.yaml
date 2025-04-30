@@ -55,3 +55,14 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 0130:WARM_UPS
   - 0131:CLR_DIST
+unsupported_commands_by_ecu:
+  770:
+  - 770.778.22BC03
+  - 770.778.22BC05
+  - 770.778.22BC07
+  - 770.778.22BC08
+  7C6:
+  - 7C6.7CE.22B002
+  7E0:
+  - 7E0.7E8.22E004
+  - 7E0.7E8.22E00A
