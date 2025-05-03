@@ -1,0 +1,16 @@
+command_id: 770.778.22BC03
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    778100B62BC03FFEE20
+    778216300620000AAAA
+  expected_values:
+    FORTE_BELT_DRIVER: 1
+    FORTE_BELT_PASSENGER: 0
+    FORTE_DOOR_FL: 0
+    FORTE_DOOR_FR: 0
+    FORTE_DOOR_RL: 0
+    FORTE_DOOR_RR: 0
+    FORTE_HANDBRAKE: 0
+    FORTE_TRUNK: 0

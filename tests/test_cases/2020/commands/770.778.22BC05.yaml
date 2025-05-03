@@ -24,6 +24,16 @@ test_cases:
     FORTE_HAZARD_SW: 80
 - response: |-
     778100B62BC056F1324
+    7782100A0000000AAAA
+  expected_values:
+    FORTE_HAZARD_SW: 160
+- response: |-
+    778100B62BC056F1324
+    7782100A0400000AAAA
+  expected_values:
+    FORTE_HAZARD_SW: 160
+- response: |-
+    778100B62BC056F1324
     7782100F0400000AAAA
   expected_values:
     FORTE_HAZARD_SW: 240
