@@ -65,15 +65,6 @@ test_cases:
 - response: 7E80441312F59
   expected_values:
     CLR_DIST: 12121
-- response: 7E80441312F63
-  expected_values:
-    CLR_DIST: 12131
-- response: 7E80441312F64
-  expected_values:
-    CLR_DIST: 12132
-- response: 7E80441312F65
-  expected_values:
-    CLR_DIST: 12133
 - response: 7E80441312F6F
   expected_values:
     CLR_DIST: 12143
@@ -83,21 +74,6 @@ test_cases:
 - response: 7E80441312F71
   expected_values:
     CLR_DIST: 12145
-- response: 7E80441312F73
-  expected_values:
-    CLR_DIST: 12147
-- response: 7E80441312F74
-  expected_values:
-    CLR_DIST: 12148
-- response: 7E80441312F75
-  expected_values:
-    CLR_DIST: 12149
-- response: 7E80441312F76
-  expected_values:
-    CLR_DIST: 12150
-- response: 7E80441312F77
-  expected_values:
-    CLR_DIST: 12151
 - response: 7E80441312F7B
   expected_values:
     CLR_DIST: 12155
@@ -125,9 +101,6 @@ test_cases:
 - response: 7E80441312F84
   expected_values:
     CLR_DIST: 12164
-- response: 7E80441312F85
-  expected_values:
-    CLR_DIST: 12165
 - response: 7E80441312F86
   expected_values:
     CLR_DIST: 12166
@@ -209,18 +182,6 @@ test_cases:
 - response: 7E90441313CC9
   expected_values:
     CLR_DIST: 15561
-- response: 7E90441313CD2
-  expected_values:
-    CLR_DIST: 15570
-- response: 7E90441313CD3
-  expected_values:
-    CLR_DIST: 15571
-- response: 7E90441313CD4
-  expected_values:
-    CLR_DIST: 15572
-- response: 7E90441313CD5
-  expected_values:
-    CLR_DIST: 15573
 - response: 7E90441313CDF
   expected_values:
     CLR_DIST: 15583
@@ -230,27 +191,6 @@ test_cases:
 - response: 7E90441313CE1
   expected_values:
     CLR_DIST: 15585
-- response: 7E90441313CE2
-  expected_values:
-    CLR_DIST: 15586
-- response: 7E90441313CE3
-  expected_values:
-    CLR_DIST: 15587
-- response: 7E90441313CE4
-  expected_values:
-    CLR_DIST: 15588
-- response: 7E90441313CE5
-  expected_values:
-    CLR_DIST: 15589
-- response: 7E90441313CE6
-  expected_values:
-    CLR_DIST: 15590
-- response: 7E90441313CE7
-  expected_values:
-    CLR_DIST: 15591
-- response: 7E90441313CE8
-  expected_values:
-    CLR_DIST: 15592
 - response: 7E90441313CEB
   expected_values:
     CLR_DIST: 15595
@@ -281,12 +221,6 @@ test_cases:
 - response: 7E90441313CF4
   expected_values:
     CLR_DIST: 15604
-- response: 7E90441313CF5
-  expected_values:
-    CLR_DIST: 15605
-- response: 7E90441313CF6
-  expected_values:
-    CLR_DIST: 15606
 - response: 7E90441313CF7
   expected_values:
     CLR_DIST: 15607
