@@ -53,6 +53,9 @@ test_cases:
 - response: 7E80641347B2F7FD9
   expected_values:
     FORTE_SAE_LAMBDA_B1S1: 1.99762
+- response: 7E80641347B2F7FDA
+  expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.99768
 - response: 7E80641347B6F7FDB
   expected_values:
     FORTE_SAE_LAMBDA_B1S1: 1.99774
