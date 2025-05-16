@@ -1,0 +1,23 @@
+command_id: 7A0.7A8.22C00B
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7A8102062C00BDDDD00
+    7A82100B7510000B751
+    7A8220000BA4D0000B9
+    7A8234C0000FF88A988
+    7A824A988A988A9AAAA
+  expected_values:
+    FORTE_TP_FL: 36.6
+    FORTE_TP_FR: 16.2
+    FORTE_TP_RL: 0
+    FORTE_TP_RR: 0
+    FORTE_TT_FL: 81
+    FORTE_TT_FR: 0
+    FORTE_TT_RL: 100
+    FORTE_TT_RR: 0
+    FORTE_TW_FL: 0
+    FORTE_TW_FR: 1
+    FORTE_TW_RL: 1
+    FORTE_TW_RR: 1
