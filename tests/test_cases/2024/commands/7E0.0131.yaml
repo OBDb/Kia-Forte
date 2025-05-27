@@ -1,19 +1,350 @@
 command_id: 7E0.0131
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80441312EB6
   expected_values:
     CLR_DIST: 11958
-- response: '7E80441313303'
+- response: 7E804413132FF
   expected_values:
-    CLR_DIST: 13059
-- response: 7E90441313CFB
+    CLR_DIST: 13055
+- response: '7E80441313300'
   expected_values:
-    CLR_DIST: 15611
-- response: 7E90441313FA0
+    CLR_DIST: 13056
+- response: 7E90441313C23
   expected_values:
-    CLR_DIST: 16288
-- response: 7E904413140D1
+    CLR_DIST: 15395
+- response: '7E90441314523'
   expected_values:
-    CLR_DIST: 16593
+    CLR_DIST: 17699
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313225
+  expected_values:
+    CLR_DIST: 12837
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441312F56
+  expected_values:
+    CLR_DIST: 12118
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441312F7E
+  expected_values:
+    CLR_DIST: 12158
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313068
+  expected_values:
+    CLR_DIST: 12392
+- response: |-
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313758
+  expected_values:
+    CLR_DIST: 14168
+- response: |-
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441312EBC
+  expected_values:
+    CLR_DIST: 11964
+- response: |-
+    > 770.778.22BC08
+    NO DATA
+    > 770.778.22BC03
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413132A3
+  expected_values:
+    CLR_DIST: 12963
+- response: |-
+    > 770.778.22BC08
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313717
+  expected_values:
+    CLR_DIST: 14103
+- response: |-
+    > 770.778.22BC09
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413136B3
+  expected_values:
+    CLR_DIST: 14003
+- response: |-
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413131EE
+  expected_values:
+    CLR_DIST: 12782
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413137F0
+  expected_values:
+    CLR_DIST: 14320
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131330E
+  expected_values:
+    CLR_DIST: 13070
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441312F34
+  expected_values:
+    CLR_DIST: 12084
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313816
+  expected_values:
+    CLR_DIST: 14358
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313293
+  expected_values:
+    CLR_DIST: 12947
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413132F6
+  expected_values:
+    CLR_DIST: 13046
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313096
+  expected_values:
+    CLR_DIST: 12438
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313715
+  expected_values:
+    CLR_DIST: 14101
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441312EB6
+  expected_values:
+    CLR_DIST: 11958
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0131
+    7E8044131305E
+  expected_values:
+    CLR_DIST: 12382
+- response: |-
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313700
+  expected_values:
+    CLR_DIST: 14080
+- response: |-
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413132BF
+  expected_values:
+    CLR_DIST: 12991
+- response: |-
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413137E0
+  expected_values:
+    CLR_DIST: 14304
+- response: |-
+    > 7D1.7D9.220104
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313292
+  expected_values:
+    CLR_DIST: 12946
+- response: |-
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313705
+  expected_values:
+    CLR_DIST: 14085
+- response: |-
+    > 7E0.7E8.0131
+    7E80441312F71
+  expected_values:
+    CLR_DIST: 12145
+- response: |-
+    > 7E0.7E8.0131
+    7E80441312F82
+  expected_values:
+    CLR_DIST: 12162
+- response: |-
+    > 7E0.7E8.0131
+    7E8044131327F
+  expected_values:
+    CLR_DIST: 12927
+- response: |-
+    > 7E0.7E8.0131
+    7E804413132A0
+  expected_values:
+    CLR_DIST: 12960
+- response: |-
+    > 7E0.7E8.0131
+    7E90441314002
+  expected_values:
+    CLR_DIST: 16386
+- response: |-
+    CAN ERROR
+    > 7E0.7E8.0131
+    7E80441312EF7
+  expected_values:
+    CLR_DIST: 12023
+- response: |-
+    CAN ERROR
+    > 7E0.7E8.0131
+    7E80441312F62
+  expected_values:
+    CLR_DIST: 12130
+- response: |-
+    CAN ERROR
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413131EF
+  expected_values:
+    CLR_DIST: 12783
+- response: |-
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413131EA
+  expected_values:
+    CLR_DIST: 12778
+- response: |-
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0131
+    7E804413132BA
+  expected_values:
+    CLR_DIST: 12986
+- response: |-
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313274
+  expected_values:
+    CLR_DIST: 12916
+- response: |-
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313675
+  expected_values:
+    CLR_DIST: 13941
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313047
+  expected_values:
+    CLR_DIST: 12359
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441313319
+  expected_values:
+    CLR_DIST: 13081
+- response: |-
+    NO DATA
+    > 7E0.7E8.0131
+    7E90441313DF4
+  expected_values:
+    CLR_DIST: 15860

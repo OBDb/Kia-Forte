@@ -1,13 +1,363 @@
 command_id: 7E0.0142
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E80441423295'
+- response: 7E804414231C9
   expected_values:
-    VPWR: 12.949
+    VPWR: 12.745
 - response: 7E804414232FA
   expected_values:
     VPWR: 13.05
 - response: 7E80441423A26
   expected_values:
     VPWR: 14.886
+- response: |-
+    > 770.778.22BC03
+    CAN ERROR
+    NO DATA
+    > 770.778.22BC08
+    CAN ERROR
+    NO DATA
+    > 7A0.7A8.22C00B
+    CAN ERROR
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414232FA
+  expected_values:
+    VPWR: 13.05
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142322F
+  expected_values:
+    VPWR: 12.847
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142355E
+  expected_values:
+    VPWR: 13.662
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142362A
+  expected_values:
+    VPWR: 13.866
+- response: |-
+    > 770.778.22BC03
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414232FA
+  expected_values:
+    VPWR: 13.05
+- response: |-
+    > 770.778.22BC04
+    CAN ERROR
+    NO DATA
+    > 7A0.7A8.22C00B
+    CAN ERROR
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142362A
+  expected_values:
+    VPWR: 13.866
+- response: |-
+    > 770.778.22BC04
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414231C9
+  expected_values:
+    VPWR: 12.745
+- response: |-
+    > 770.778.22BC05
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142322F
+  expected_values:
+    VPWR: 12.847
+- response: |-
+    > 770.778.22BC05
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    > 770.778.22BC05
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142322F
+  expected_values:
+    VPWR: 12.847
+- response: |-
+    > 770.778.22BC05
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423690
+  expected_values:
+    VPWR: 13.968
+- response: |-
+    > 770.778.22BC08
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414235C4
+  expected_values:
+    VPWR: 13.764
+- response: |-
+    > 770.778.22BC09
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    > 770.778.22BC09
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC03
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142355E
+  expected_values:
+    VPWR: 13.662
+- response: |-
+    > 770.778.22BC09
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423690
+  expected_values:
+    VPWR: 13.968
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414233C6
+  expected_values:
+    VPWR: 13.254
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423163
+  expected_values:
+    VPWR: 12.643
+- response: |-
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414233C6
+  expected_values:
+    VPWR: 13.254
+- response: |-
+    > 7B3.7BB.220100
+    CAN ERROR
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414230FD
+  expected_values:
+    VPWR: 12.541
+- response: |-
+    > 7B3.7BB.220100
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142355E
+  expected_values:
+    VPWR: 13.662
+- response: |-
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423492
+  expected_values:
+    VPWR: 13.458
+- response: |-
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    > 7D1.7D9.220104
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    > 7D4.7DC.220101
+    CAN ERROR
+    NO DATA
+    > 7C6.7CE.22B002
+    CAN ERROR
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414236F6
+  expected_values:
+    VPWR: 14.07
+- response: |-
+    > 7D4.7DC.220101
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    > 7E0.7E8.0142
+    7E80441420065
+  expected_values:
+    VPWR: 0.101
+- response: |-
+    > 7E0.7E8.0142
+    7E804414231C9
+  expected_values:
+    VPWR: 12.745
+- response: |-
+    > 7E0.7E8.0142
+    7E8044142322F
+  expected_values:
+    VPWR: 12.847
+- response: |-
+    > 7E0.7E8.0142
+    7E80441423360
+  expected_values:
+    VPWR: 13.152
+- response: |-
+    > 7E0.7E8.0142
+    7E804414236F6
+  expected_values:
+    VPWR: 14.07
+- response: |-
+    CAN ERROR
+    > 7E0.7E8.0142
+    7E804414235C4
+  expected_values:
+    VPWR: 13.764
+- response: |-
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E8044142342C
+  expected_values:
+    VPWR: 13.356
+- response: |-
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
+- response: |-
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 770.778.22BC04
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414235C4
+  expected_values:
+    VPWR: 13.764
+- response: |-
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441420065
+  expected_values:
+    VPWR: 0.101
+- response: |-
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414231C9
+  expected_values:
+    VPWR: 12.745
+- response: |-
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423690
+  expected_values:
+    VPWR: 13.968
