@@ -1,10 +1,8 @@
 command_id: 7DF.7E8.0134
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E8064134612C7ED8
+- response: 7E80641345F4B7EC1
   expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.98193
+    FORTE_SAE_LAMBDA_B1S1: 1.98053
 - response: 7E80641346E0D7F67
   expected_values:
     FORTE_SAE_LAMBDA_B1S1: 1.99066
@@ -17,7 +15,7 @@ test_cases:
 - response: 7E8064134FF5F8139
   expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
-- response: 7E8064134FFFF8176
+- response: 7E8064134FFFF8160
   expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
 - response: 7E8064134FFFF820F
