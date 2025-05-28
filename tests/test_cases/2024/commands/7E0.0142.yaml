@@ -84,6 +84,17 @@ test_cases:
   expected_values:
     VPWR: 12.745
 - response: |-
+    > 770.778.22BC04
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 770.778.22BC07
+    NO DATA
+    > 7E0.7E8.0142
+    7E804414232FA
+  expected_values:
+    VPWR: 13.05
+- response: |-
     > 770.778.22BC05
     NO DATA
     > 770.778.22BC07
@@ -131,6 +142,17 @@ test_cases:
     7E80441423690
   expected_values:
     VPWR: 13.968
+- response: |-
+    > 770.778.22BC08
+    NO DATA
+    > 7B3.7BB.220100
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423295
+  expected_values:
+    VPWR: 12.949
 - response: |-
     > 770.778.22BC08
     NO DATA
@@ -297,6 +319,14 @@ test_cases:
     7E804414235C4
   expected_values:
     VPWR: 13.764
+- response: |-
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7E0.7E8.0142
+    7E80441423097
+  expected_values:
+    VPWR: 12.439
 - response: |-
     NO DATA
     > 770.778.22BC09
