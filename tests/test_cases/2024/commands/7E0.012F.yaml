@@ -85,6 +85,17 @@ test_cases:
     NO DATA
     > 7D1.7D9.220104
     NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F50
+  expected_values:
+    FLI: 31.37255
+- response: |-
+    > 770.778.22BC04
+    NO DATA
+    > 7D1.7D9.220104
+    NO DATA
     > 770.778.22BC09
     NO DATA
     > 7C6.7CE.22B002
@@ -148,6 +159,19 @@ test_cases:
     NO DATA
     > 770.778.22BC08
     NO DATA
+    > 770.778.22BC05
+    NO DATA
+    > 7A0.7A8.22C00B
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F39
+  expected_values:
+    FLI: 22.35294
+- response: |-
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
     > 7B3.7BB.220100
     NO DATA
     > 770.778.22BC04
@@ -171,6 +195,19 @@ test_cases:
     7E803412F05
   expected_values:
     FLI: 1.96078
+- response: |-
+    > 770.778.22BC07
+    NO DATA
+    > 770.778.22BC09
+    NO DATA
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F32
+  expected_values:
+    FLI: 19.60784
 - response: |-
     > 770.778.22BC07
     NO DATA
@@ -225,6 +262,15 @@ test_cases:
     7E803412F3C
   expected_values:
     FLI: 23.52941
+- response: |-
+    > 770.778.22BC08
+    NO DATA
+    > 7C6.7CE.22B002
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F52
+  expected_values:
+    FLI: 32.15686
 - response: |-
     > 770.778.22BC09
     CAN ERROR
@@ -327,6 +373,15 @@ test_cases:
     7E803412F32
   expected_values:
     FLI: 19.60784
+- response: |-
+    > 7D4.7DC.220101
+    NO DATA
+    > 770.778.22BC08
+    NO DATA
+    > 7E0.7E8.012F
+    7E803412F0F
+  expected_values:
+    FLI: 5.88235
 - response: |-
     > 7D4.7DC.220101
     NO DATA
