@@ -10,6 +10,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 24.0018
     FORTE_OIL_TEMP: 50.25246
+    FORTE_EIT: 24.0
+    FORTE_EOT: 50.25
 - response: |-
     7E8102962E0011FB63E
     7E8210001005F000044
@@ -20,6 +22,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 34.50206
     FORTE_OIL_TEMP: 71.25298
+    FORTE_EIT: 34.5
+    FORTE_EOT: 71.25
 - response: |-
     7E8102962E0011FB63E
     7E82100010060000044
@@ -30,6 +34,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 45.00233
     FORTE_OIL_TEMP: 92.25351
+    FORTE_EIT: 45.0
+    FORTE_EOT: 92.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B1AE59A00A44
@@ -40,6 +46,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 41.25223
     FORTE_OIL_TEMP: 95.25358
+    FORTE_EIT: 41.25
+    FORTE_EOT: 95.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B1AE5CFC0A46
@@ -50,6 +58,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 36.75212
     FORTE_OIL_TEMP: 48.0024
+    FORTE_EIT: 36.75
+    FORTE_EOT: 48.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B05B8C135F
@@ -60,6 +70,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 33.00203
     FORTE_OIL_TEMP: 45.00233
+    FORTE_EIT: 33.0
+    FORTE_EOT: 45.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B05BE00A45
@@ -70,6 +82,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 38.25216
     FORTE_OIL_TEMP: 50.25246
+    FORTE_EIT: 38.25
+    FORTE_EOT: 50.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B05C040B46
@@ -80,6 +94,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 36.0021
     FORTE_OIL_TEMP: 45.75234
+    FORTE_EIT: 36.0
+    FORTE_EOT: 45.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B05D8C0B47
@@ -90,6 +106,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 36.0021
     FORTE_OIL_TEMP: 45.00233
+    FORTE_EIT: 36.0
+    FORTE_EOT: 45.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B05EF8136E
@@ -100,6 +118,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 27.00188
     FORTE_OIL_TEMP: 35.25208
+    FORTE_EIT: 27.0
+    FORTE_EOT: 35.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B1B15CE01262
@@ -110,6 +130,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 24.75182
     FORTE_OIL_TEMP: 33.00203
+    FORTE_EIT: 24.75
+    FORTE_EOT: 33.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B058B00A44
@@ -120,6 +142,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 45.00233
     FORTE_OIL_TEMP: 95.25358
+    FORTE_EIT: 45.0
+    FORTE_EOT: 95.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B05AF01571
@@ -130,6 +154,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 33.75204
     FORTE_OIL_TEMP: 60.0027
+    FORTE_EIT: 33.75
+    FORTE_EOT: 60.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B05CC80A44
@@ -140,6 +166,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 45.75234
     FORTE_OIL_TEMP: 86.25336
+    FORTE_EIT: 45.75
+    FORTE_EOT: 86.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B05D481E6E
@@ -150,6 +178,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 28.50191
     FORTE_OIL_TEMP: 50.25246
+    FORTE_EIT: 28.5
+    FORTE_EOT: 50.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B05DE01260
@@ -160,6 +190,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 34.50206
     FORTE_OIL_TEMP: 39.00218
+    FORTE_EIT: 34.5
+    FORTE_EOT: 39.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B159B81F6E
@@ -170,6 +202,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 32.25201
     FORTE_OIL_TEMP: 90.75347
+    FORTE_EIT: 32.25
+    FORTE_EOT: 90.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B15BA00C50
@@ -180,6 +214,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 33.00203
     FORTE_OIL_TEMP: 50.25246
+    FORTE_EIT: 33.0
+    FORTE_EOT: 50.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B15C080C49
@@ -190,6 +226,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 46.50236
     FORTE_OIL_TEMP: 87.00338
+    FORTE_EIT: 46.5
+    FORTE_EOT: 87.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B15C882D6E
@@ -200,6 +238,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 25.50184
     FORTE_OIL_TEMP: 45.00233
+    FORTE_EIT: 25.5
+    FORTE_EOT: 45.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B15E54286E
@@ -210,6 +250,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 27.00188
     FORTE_OIL_TEMP: 56.25261
+    FORTE_EIT: 27.0
+    FORTE_EOT: 56.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B15FD40B46
@@ -220,6 +262,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 25.50184
     FORTE_OIL_TEMP: 47.25238
+    FORTE_EIT: 25.5
+    FORTE_EOT: 47.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B160100C52
@@ -230,6 +274,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 24.0018
     FORTE_OIL_TEMP: 27.75189
+    FORTE_EIT: 24.0
+    FORTE_EOT: 27.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B3B1611C1363
@@ -240,6 +286,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 23.25178
     FORTE_OIL_TEMP: 24.75182
+    FORTE_EIT: 23.25
+    FORTE_EOT: 24.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B4B3586C326E
@@ -250,6 +298,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 33.00203
     FORTE_OIL_TEMP: 66.00285
+    FORTE_EIT: 33.0
+    FORTE_EOT: 66.0
 - response: |-
     7E8102962E0011FB63E
     7E82100B6B456501156
@@ -260,6 +310,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 50.25246
     FORTE_OIL_TEMP: 81.75324
+    FORTE_EIT: 50.25
+    FORTE_EOT: 81.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B6B457C0156E
@@ -270,6 +322,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 33.75204
     FORTE_OIL_TEMP: 90.75347
+    FORTE_EIT: 33.75
+    FORTE_EOT: 90.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B7B45638115D
@@ -280,6 +334,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 48.75242
     FORTE_OIL_TEMP: 78.75317
+    FORTE_EIT: 48.75
+    FORTE_EOT: 78.75
 - response: |-
     7E8102962E0011FB63E
     7E82100B90060000040
@@ -290,6 +346,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 51.75249
     FORTE_OIL_TEMP: 95.25358
+    FORTE_EIT: 51.75
+    FORTE_EOT: 95.25
 - response: |-
     7E8102962E0011FB63E
     7E82100B9B65768146E
@@ -300,6 +358,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 44.25231
     FORTE_OIL_TEMP: 93.75354
+    FORTE_EIT: 44.25
+    FORTE_EOT: 93.75
 - response: |-
     7E8102962E0011FB63E
     7E82100BA005A000044
@@ -310,6 +370,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 54.00255
     FORTE_OIL_TEMP: 90.75347
+    FORTE_EIT: 54.0
+    FORTE_EOT: 90.75
 - response: |-
     7E8102962E0011FB63E
     7E82100BCB75D9C1068
@@ -320,6 +382,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 42.75227
     FORTE_OIL_TEMP: 45.75234
+    FORTE_EIT: 42.75
+    FORTE_EOT: 45.75
 - response: |-
     7E8102962E0011FB63E
     7E82100BDBF5E900A44
@@ -330,6 +394,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 48.75242
     FORTE_OIL_TEMP: 81.75324
+    FORTE_EIT: 48.75
+    FORTE_EOT: 81.75
 - response: |-
     7E8102962E0011FB63E
     7E82100BFC05BC80A44
@@ -340,6 +406,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 48.0024
     FORTE_OIL_TEMP: 81.00323
+    FORTE_EIT: 48.0
+    FORTE_EOT: 81.0
 - response: |-
     7E8102962E0011FB63E
     7E82100C000618C0444
@@ -350,6 +418,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 37.50214
     FORTE_OIL_TEMP: 83.25328
+    FORTE_EIT: 37.5
+    FORTE_EOT: 83.25
 - response: |-
     7E8102962E0011FB63E
     7E82100C5C25EA8386E
@@ -360,6 +430,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 53.25253
     FORTE_OIL_TEMP: 87.75339
+    FORTE_EIT: 53.25
+    FORTE_EOT: 87.75
 - response: |-
     7E8102962E0011FB63E
     7E82100C9C95FF40F5A
@@ -370,6 +442,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 47.25238
     FORTE_OIL_TEMP: 71.25298
+    FORTE_EIT: 47.25
+    FORTE_EOT: 71.25
 - response: |-
     7E8102962E0011FB63E
     7E82100CBC960042F64
@@ -380,6 +454,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 48.75242
     FORTE_OIL_TEMP: 71.25298
+    FORTE_EIT: 48.75
+    FORTE_EOT: 71.25
 - response: |-
     7E8102962E0011FB63E
     7E82100CECB5E600A44
@@ -390,6 +466,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 34.50206
     FORTE_OIL_TEMP: 63.75279
+    FORTE_EIT: 34.5
+    FORTE_EOT: 63.75
 - response: |-
     7E8102962E0011FB63E
     7E82100CECC59E4206E
@@ -400,6 +478,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 35.25208
     FORTE_OIL_TEMP: 96.0036
+    FORTE_EIT: 35.25
+    FORTE_EOT: 96.0
 - response: |-
     7E8102962E0011FB63E
     7E82100CECC5D5C126E
@@ -410,6 +490,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 40.50221
     FORTE_OIL_TEMP: 56.25261
+    FORTE_EIT: 40.5
+    FORTE_EOT: 56.25
 - response: |-
     7E8102962E0011FB63E
     7E82100CECE5B8C1857
@@ -420,6 +502,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 34.50206
     FORTE_OIL_TEMP: 48.0024
+    FORTE_EIT: 34.5
+    FORTE_EOT: 48.0
 - response: |-
     7E8102962E0011FB63E
     7E82100CFCE5EB80A44
@@ -430,6 +514,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 38.25216
     FORTE_OIL_TEMP: 92.25351
+    FORTE_EIT: 38.25
+    FORTE_EOT: 92.25
 - response: |-
     7E8102962E0011FB63E
     7E82100D1CC5FCC0A44
@@ -440,3 +526,5 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 41.25223
     FORTE_OIL_TEMP: 92.25351
+    FORTE_EIT: 41.25
+    FORTE_EOT: 92.25

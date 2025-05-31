@@ -9,6 +9,8 @@ test_cases:
     7BB25FF01FFFFFFAAAA
   expected_values:
     FORTE_VSS: 0
+    FORTE_TEMP_EXT: 21.5
+    FORTE_TEMP_INT: 24.0
 - response: |-
     7BB10276201007F9006
     7BB2168FF817B631A11
@@ -18,6 +20,8 @@ test_cases:
     7BB25FF01FFFFFFAAAA
   expected_values:
     FORTE_VSS: 0
+    FORTE_TEMP_EXT: 21.5
+    FORTE_TEMP_INT: 24.5
 - response: |-
     7BB10276201007F9006
     7BB2168FF817B641B11
@@ -27,3 +31,5 @@ test_cases:
     7BB25FF01FFFFFFAAAA
   expected_values:
     FORTE_VSS: 0
+    FORTE_TEMP_EXT: 21.5
+    FORTE_TEMP_INT: 24.5

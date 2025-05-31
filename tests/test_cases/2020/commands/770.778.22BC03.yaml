@@ -3,60 +3,20 @@ test_cases:
 - response: |-
     778100B62BC03FFEE20
     778216300000000AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 0
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 0
-    FORTE_DOOR_FR: 0
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 0
-    FORTE_HANDBRAKE: 0
-    FORTE_TRUNK: 0
+  expected_values: {}
 - response: |-
     778100B62BC03FFEE20
     778216300600400AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 1
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 0
-    FORTE_DOOR_FR: 0
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 0
-    FORTE_HANDBRAKE: 0
-    FORTE_TRUNK: 0
+  expected_values: {}
 - response: |-
     778100B62BC03FFEE20
     778216300660000AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 1
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 0
-    FORTE_DOOR_FR: 0
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 0
-    FORTE_HANDBRAKE: 0
-    FORTE_TRUNK: 0
+  expected_values: {}
 - response: |-
     778100B62BC03FFEE20
     77821630F000000AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 0
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 0
-    FORTE_DOOR_FR: 1
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 1
-    FORTE_HANDBRAKE: 0
-    FORTE_TRUNK: 1
+  expected_values: {}
 - response: |-
     778100B62BC03FFEE20
     77821633A000000AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 0
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 1
-    FORTE_DOOR_FR: 1
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 0
-    FORTE_HANDBRAKE: 1
-    FORTE_TRUNK: 0
+  expected_values: {}

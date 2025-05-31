@@ -13,6 +13,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 51.75249
     FORTE_OIL_TEMP: 79.50319
+    FORTE_EIT: 51.75
+    FORTE_EOT: 79.5
 - response: |-
     7E8103A62E001F9BDFC
     7E82100CFCFE1460B46
@@ -26,6 +28,8 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 60.75272
     FORTE_OIL_TEMP: 84.75332
+    FORTE_EIT: 60.75
+    FORTE_EOT: 84.75
 - response: |-
     7E8103A62E001F9BDFC
     7E82100CFCFE1580B46
@@ -39,3 +43,5 @@ test_cases:
   expected_values:
     FORTE_INTAKE_TEMP: 59.25268
     FORTE_OIL_TEMP: 84.75332
+    FORTE_EIT: 59.25
+    FORTE_EOT: 84.75

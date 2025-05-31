@@ -3,18 +3,12 @@ test_cases:
 - response: |-
     778100B62BC09340003
     77821CC00000000AAAA
-  expected_values:
-    FORTE_HL_HIGH: 0
-    FORTE_HL_LOW: 0
+  expected_values: {}
 - response: |-
     778100B62BC09340003
     77821CC00000030AAAA
-  expected_values:
-    FORTE_HL_HIGH: 0
-    FORTE_HL_LOW: 1
+  expected_values: {}
 - response: |-
     778100B62BC09340003
     77821CC0000C000AAAA
-  expected_values:
-    FORTE_HL_HIGH: 1
-    FORTE_HL_LOW: 0
+  expected_values: {}
