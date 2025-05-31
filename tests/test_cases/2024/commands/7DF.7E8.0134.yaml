@@ -1,23 +1,17 @@
 command_id: 7DF.7E8.0134
 test_cases:
 - response: 7E80641346CED7F5C
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.98999
+  expected_values: {}
 - response: 7E8064134710E7F85
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99249
-- response: '7E806413480108000'
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
+- response: 7E806413480108000
+  expected_values: {}
 - response: 7E806413480707FFF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99994
+  expected_values: {}
 - response: 7E8064134FFFF8157
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
 - response: 7E8064134FFFF820A
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
 - response: |-
     > 770.778.22BC03
     NO DATA
@@ -25,8 +19,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347C0F7FE1
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99811
+  expected_values: {}
 - response: |-
     > 770.778.22BC03
     NO DATA
@@ -42,8 +35,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641346E4D7F6B
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99091
+  expected_values: {}
 - response: |-
     > 770.778.22BC03
     NO DATA
@@ -53,15 +45,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413469CD7F3B
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.98798
+  expected_values: {}
 - response: |-
     > 770.778.22BC03
     NO DATA
     > 7DF.7E8.0134
     7E80641347DCF7FEE
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9989
+  expected_values: {}
 - response: |-
     > 770.778.22BC04
     NO DATA
@@ -69,8 +59,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413479CF7FCE
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99695
+  expected_values: {}
 - response: |-
     > 770.778.22BC05
     NO DATA
@@ -80,8 +69,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413469ED7F3D
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9881
+  expected_values: {}
 - response: |-
     > 770.778.22BC05
     NO DATA
@@ -89,8 +77,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347CEF7FE7
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99847
+  expected_values: {}
 - response: |-
     > 770.778.22BC07
     NO DATA
@@ -102,8 +89,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134792F7FC9
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99664
+  expected_values: {}
 - response: |-
     > 770.778.22BC07
     NO DATA
@@ -113,8 +99,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347CCF7FE7
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99847
+  expected_values: {}
 - response: |-
     > 770.778.22BC07
     NO DATA
@@ -124,15 +109,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347BAF7FDD
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99786
+  expected_values: {}
 - response: |-
     > 770.778.22BC07
     NO DATA
     > 7DF.7E8.0134
     7E806413480707FFF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99994
+  expected_values: {}
 - response: |-
     > 770.778.22BC08
     CAN ERROR
@@ -143,8 +126,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641346F2D7F73
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99139
+  expected_values: {}
 - response: |-
     > 770.778.22BC08
     NO DATA
@@ -160,15 +142,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134710E7F85
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99249
+  expected_values: {}
 - response: |-
     > 770.778.22BC08
     NO DATA
     > 7DF.7E8.0134
     7E8064134722E7F8F
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9931
+  expected_values: {}
 - response: |-
     > 770.778.22BC09
     NO DATA
@@ -176,15 +156,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641346DAD7F64
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99048
+  expected_values: {}
 - response: |-
     > 770.778.22BC09
     NO DATA
     > 7DF.7E8.0134
     7E80641347C0F7FE1
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99811
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     CAN ERROR
@@ -194,8 +172,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134682D8009
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     NO DATA
@@ -203,8 +180,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134758E7FAE
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.995
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     NO DATA
@@ -212,8 +188,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134792F7FC9
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99664
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     NO DATA
@@ -223,8 +198,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134730E7F97
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99359
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     NO DATA
@@ -232,15 +206,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413480108000
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
 - response: |-
     > 7A0.7A8.22C00B
     NO DATA
     > 7DF.7E8.0134
     7E806413479CF7FCE
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99695
+  expected_values: {}
 - response: |-
     > 7B3.7BB.220100
     NO DATA
@@ -250,8 +222,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347C0F7FE0
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99805
+  expected_values: {}
 - response: |-
     > 7B3.7BB.220100
     NO DATA
@@ -261,8 +232,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347B8F7FDC
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9978
+  expected_values: {}
 - response: |-
     > 7B3.7BB.220100
     NO DATA
@@ -270,15 +240,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413479CF7FCE
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99695
+  expected_values: {}
 - response: |-
     > 7B3.7BB.220100
     NO DATA
     > 7DF.7E8.0134
     7E80641347BCF7FDF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99799
+  expected_values: {}
 - response: |-
     > 7C6.7CE.22B002
     NO DATA
@@ -292,8 +260,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134724E7F90
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99316
+  expected_values: {}
 - response: |-
     > 7D1.7D9.220104
     CAN ERROR
@@ -306,8 +273,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347C2F7FE2
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99817
+  expected_values: {}
 - response: |-
     > 7D1.7D9.220104
     CAN ERROR
@@ -317,8 +283,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347C6F7FE4
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99829
+  expected_values: {}
 - response: |-
     > 7D1.7D9.220104
     NO DATA
@@ -328,15 +293,13 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347CCF7FE7
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99847
+  expected_values: {}
 - response: |-
     > 7D1.7D9.220104
     NO DATA
     > 7DF.7E8.0134
     7E80641347D6F7FEB
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99872
+  expected_values: {}
 - response: |-
     > 7D4.7DC.220101
     CAN ERROR
@@ -349,8 +312,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134682D8009
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 2
+  expected_values: {}
 - response: |-
     > 7D4.7DC.220101
     NO DATA
@@ -358,56 +320,46 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134732E7F98
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99365
+  expected_values: {}
 - response: |-
     > 7D4.7DC.220101
     NO DATA
     > 7DF.7E8.0134
     7E8064134712E7F86
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99255
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E80641346D0D7F5D
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99005
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E80641346FCD7F79
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99176
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E8064134700E7F7B
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99188
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E806413475AE7FAF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99506
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E8064134788F7FC5
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9964
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E80641347A0F7FD0
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99707
+  expected_values: {}
 - response: |-
     > 7DF.7E8.0134
     7E80641347E2F7FF0
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99902
+  expected_values: {}
 - response: |-
     CAN ERROR
     > 7DF.7E8.0134
     7E80641346E6D7F6C
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99097
+  expected_values: {}
 - response: |-
     NO DATA
     > 770.778.22BC04
@@ -426,8 +378,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347E0F7FEF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99896
+  expected_values: {}
 - response: |-
     NO DATA
     > 770.778.22BC05
@@ -436,8 +387,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347A4F7FD2
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99719
+  expected_values: {}
 - response: |-
     NO DATA
     > 770.778.22BC05
@@ -448,8 +398,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347D2F7FEA
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99866
+  expected_values: {}
 - response: |-
     NO DATA
     > 770.778.22BC07
@@ -464,8 +413,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134740E7FA0
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99414
+  expected_values: {}
 - response: |-
     NO DATA
     > 7A0.7A8.22C00B
@@ -480,8 +428,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E8064134792F7FC9
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99664
+  expected_values: {}
 - response: |-
     NO DATA
     > 7A0.7A8.22C00B
@@ -492,8 +439,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641347D8F7FEC
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99878
+  expected_values: {}
 - response: |-
     NO DATA
     > 7B3.7BB.220100
@@ -502,8 +448,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641346D4D7F60
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99023
+  expected_values: {}
 - response: |-
     NO DATA
     > 7C6.7CE.22B002
@@ -512,8 +457,7 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E806413477CE7FBF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99603
+  expected_values: {}
 - response: |-
     NO DATA
     > 7C6.7CE.22B002
@@ -528,39 +472,33 @@ test_cases:
     NO DATA
     > 7DF.7E8.0134
     7E80641346D0D7F5E
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99011
+  expected_values: {}
 - response: |-
     NO DATA
     > 7D1.7D9.220104
     NO DATA
     > 7DF.7E8.0134
     7E80641346D0D7F5E
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99011
+  expected_values: {}
 - response: |-
     NO DATA
     > 7D1.7D9.220104
     NO DATA
     > 7DF.7E8.0134
     7E80641347C6F7FE4
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99829
+  expected_values: {}
 - response: |-
     NO DATA
     > 7DF.7E8.0134
     7E806413473CE7F9E
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99402
+  expected_values: {}
 - response: |-
     NO DATA
     > 7DF.7E8.0134
     7E80641347B6F7FDC
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.9978
+  expected_values: {}
 - response: |-
     NO DATA
     > 7DF.7E8.0134
     7E80641347DEF7FEF
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99896
+  expected_values: {}

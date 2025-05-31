@@ -11,8 +11,6 @@ test_cases:
     7E82700000000000000
     7E828000000AAAAAAAA
   expected_values:
-    FORTE_INTAKE_TEMP: 51.75249
-    FORTE_OIL_TEMP: 79.50319
     FORTE_EIT: 51.75
     FORTE_EOT: 79.5
 - response: |-
@@ -26,8 +24,6 @@ test_cases:
     7E82700000000000000
     7E828000000AAAAAAAA
   expected_values:
-    FORTE_INTAKE_TEMP: 60.75272
-    FORTE_OIL_TEMP: 84.75332
     FORTE_EIT: 60.75
     FORTE_EOT: 84.75
 - response: |-
@@ -41,7 +37,5 @@ test_cases:
     7E82700000000000000
     7E828000000AAAAAAAA
   expected_values:
-    FORTE_INTAKE_TEMP: 59.25268
-    FORTE_OIL_TEMP: 84.75332
     FORTE_EIT: 59.25
     FORTE_EOT: 84.75
