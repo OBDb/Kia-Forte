@@ -11,15 +11,15 @@ test_cases:
     FORTE_TB_FR: 3V+
     FORTE_TB_RL: null
     FORTE_TB_RR: null
-    FORTE_TP_FL_V2: 36.6
-    FORTE_TP_FR_V2: 16.2
-    FORTE_TP_RL_V2: 0
-    FORTE_TP_RR_V2: 0
-    FORTE_TT_FL_V2: 31.0
-    FORTE_TT_FR_V2: -50
-    FORTE_TT_RL_V2: 100
-    FORTE_TT_RR_V2: -50
-    FORTE_TW_FL_V2: 0
-    FORTE_TW_FR_V2: 1
-    FORTE_TW_RL_V2: 1
-    FORTE_TW_RR_V2: 1
+    FORTE_TP_FL: 36.6
+    FORTE_TP_FR: 16.2
+    FORTE_TP_RL: 0
+    FORTE_TP_RR: 0
+    FORTE_TT_FL: 31.0
+    FORTE_TT_FR: -50
+    FORTE_TT_RL: 100
+    FORTE_TT_RR: -50
+    FORTE_TW_FL: 0
+    FORTE_TW_FR: 1
+    FORTE_TW_RL: 1
+    FORTE_TW_RR: 1

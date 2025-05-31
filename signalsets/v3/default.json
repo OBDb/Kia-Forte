@@ -1,54 +1,54 @@
 { "commands": [
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_TRUNK_V2",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
-    {"id": "FORTE_DOOR_FL_V2",   "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left door open?"},
-    {"id": "FORTE_DOOR_FR_V2",   "path": "Doors",     "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right door open?"},
-    {"id": "FORTE_HANDBRAKE_V2", "path": "Control",   "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes" }, "name": "Handbrake engaged?"},
-    {"id": "FORTE_DOOR_RR_V2",   "path": "Doors",     "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open?"},
-    {"id": "FORTE_DOOR_RL_V2",   "path": "Doors",     "fmt": {"bix": 39, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open?"},
-    {"id": "FORTE_BELT_PASS",    "path": "Seatbelts", "fmt": {"bix": 45, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
-    {"id": "FORTE_BELT_DRIV",    "path": "Seatbelts", "fmt": {"bix": 46, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver seatbelt latched?"},
-    {"id": "FORTE_HOOD",         "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood latched?"},
-    {"id": "FORTE_DEFOG_SW_V2",  "path": "Climate",   "fmt": {"bix": 62, "len": 1, "max": 1, "unit": "noyes" }, "name": "Defogging?"}
+    {"id": "FORTE_TRUNK",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
+    {"id": "FORTE_DOOR_FL",   "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left door open?"},
+    {"id": "FORTE_DOOR_FR",   "path": "Doors",     "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right door open?"},
+    {"id": "FORTE_HANDBRAKE", "path": "Control",   "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes" }, "name": "Handbrake engaged?"},
+    {"id": "FORTE_DOOR_RR",   "path": "Doors",     "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open?"},
+    {"id": "FORTE_DOOR_RL",   "path": "Doors",     "fmt": {"bix": 39, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open?"},
+    {"id": "FORTE_BELT_PASS", "path": "Seatbelts", "fmt": {"bix": 45, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
+    {"id": "FORTE_BELT_DRIV", "path": "Seatbelts", "fmt": {"bix": 46, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver seatbelt latched?"},
+    {"id": "FORTE_HOOD",      "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood latched?"},
+    {"id": "FORTE_DEFOG_SW",  "path": "Climate",   "fmt": {"bix": 62, "len": 1, "max": 1, "unit": "noyes" }, "name": "Defogging?"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_GEAR_R",     "path": "Transmission", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
-    {"id": "FORTE_LOCK_FL_V2", "path": "Doors",        "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front left door locked?"},
-    {"id": "FORTE_LOCK_FR_V2", "path": "Doors",        "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front right door locked?"},
-    {"id": "FORTE_BELT_RM",    "path": "Seatbelts",    "fmt": {"bix": 52, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear middle seatbelt latched?"},
-    {"id": "FORTE_BELT_RL",    "path": "Seatbelts",    "fmt": {"bix": 53, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear left seatbelt latched?"},
-    {"id": "FORTE_BELT_RR",    "path": "Seatbelts",    "fmt": {"bix": 54, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear right seatbelt latched?"}
+    {"id": "FORTE_GEAR_R",  "path": "Transmission", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
+    {"id": "FORTE_LOCK_FL", "path": "Doors",        "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front left door locked?"},
+    {"id": "FORTE_LOCK_FR", "path": "Doors",        "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front right door locked?"},
+    {"id": "FORTE_BELT_RM", "path": "Seatbelts",    "fmt": {"bix": 52, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear middle seatbelt latched?"},
+    {"id": "FORTE_BELT_RL", "path": "Seatbelts",    "fmt": {"bix": 53, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear left seatbelt latched?"},
+    {"id": "FORTE_BELT_RR", "path": "Seatbelts",    "fmt": {"bix": 54, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear right seatbelt latched?"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_HAZARD_SW_V2", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
-    {"id": "FORTE_HL_SW_V2",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch (raw >2)"}
+    {"id": "FORTE_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
+    {"id": "FORTE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch (raw >2)"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_DEFOG_LIGHT_V2", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog light on"}
+    {"id": "FORTE_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog light on"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_HL_HIGH_V2", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight high beam on"},
-    {"id": "FORTE_HL_LOW_V2",  "path": "Lights", "fmt": {"bix": 56, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight low beam on"}
+    {"id": "FORTE_HL_HIGH", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight high beam on"},
+    {"id": "FORTE_HL_LOW",  "path": "Lights", "fmt": {"bix": 56, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight low beam on"}
   ]},
 { "hdr": "7A0", "rax": "7A8", "cmd": {"22": "C00B"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2019, "years": [2021, 2022] },
   "signals": [
-    {"id": "FORTE_TP_FL_V2", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure front left",     "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "FORTE_TT_FL_V2", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature front left"},
-    {"id": "FORTE_TW_FL_V2", "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert front left"},
-    {"id": "FORTE_TP_FR_V2", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure front right",    "suggestedMetric": "frontRightTirePressure"},
-    {"id": "FORTE_TT_FR_V2", "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature front right"},
-    {"id": "FORTE_TW_FR_V2", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert front right"},
-    {"id": "FORTE_TP_RR_V2", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure rear right",     "suggestedMetric": "rearRightTirePressure"},
-    {"id": "FORTE_TT_RR_V2", "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature rear right"},
-    {"id": "FORTE_TW_RR_V2", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert rear right"},
-    {"id": "FORTE_TP_RL_V2", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure rear left",      "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "FORTE_TT_RL_V2", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature rear left"},
-    {"id": "FORTE_TW_RL_V2", "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert rear left"},
+    {"id": "FORTE_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure front left",     "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "FORTE_TT_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature front left"},
+    {"id": "FORTE_TW_FL", "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert front left"},
+    {"id": "FORTE_TP_FR", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure front right",    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "FORTE_TT_FR", "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature front right"},
+    {"id": "FORTE_TW_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert front right"},
+    {"id": "FORTE_TP_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure rear right",     "suggestedMetric": "rearRightTirePressure"},
+    {"id": "FORTE_TT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature rear right"},
+    {"id": "FORTE_TW_RR", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert rear right"},
+    {"id": "FORTE_TP_RL", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,             "unit": "psi"     }, "name": "Tire pressure rear left",      "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "FORTE_TT_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,           "add": -50, "unit": "celsius" }, "name": "Tire temperature rear left"},
+    {"id": "FORTE_TW_RL", "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                                     "unit": "noyes"   }, "name": "Tire alert rear left"},
     {"id": "FORTE_TB_FL", "path": "Tires", "name": "Tire battery front left", "fmt": {"bix": 48, "len": 8, "map": {
           "0": { "description": ">3 V",        "value": "3V+" },
           "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
@@ -127,8 +127,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E004"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2024, "to": 2022 },
   "signals": [
-    {"id": "FORTE_AUX_SOC_V2", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of charge", "suggestedMetric": "stateOfCharge"},
-    {"id": "FORTE_AUX_SOH_V2", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of health", "suggestedMetric": "stateOfHealth"}
+    {"id": "FORTE_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of charge", "suggestedMetric": "stateOfCharge"},
+    {"id": "FORTE_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of health", "suggestedMetric": "stateOfHealth"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "from": 2024, "to": 2016, "years": [2018, 2019, 2021, 2022] },
   "signals": [

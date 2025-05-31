@@ -4,5 +4,5 @@ test_cases:
     778100B62BC056F1324
     778210000000000AAAA
   expected_values:
-    FORTE_HAZARD_SW_V2: 0
-    FORTE_HL_SW_V2: 0
+    FORTE_HAZARD_SW: 0
+    FORTE_HL_SW: 0
