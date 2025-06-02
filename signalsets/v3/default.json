@@ -3,15 +3,6 @@
   "signals": [
     {"id": "FORTE_DC_CHRG_STATE", "path": "Battery", "fmt": {"bix": 140, "len": 1, "max": 1, "unit": "offon" }, "name": "DC charging state"}
   ]},
-{ "hdr": "744", "fcm1": true, "dbg": true, "cmd": {"22": "E003"}, "freq": 1,
-  "signals": [
-    {"id": "FORTE_HVBAT_SOC_VCMS",    "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 100,   "div": 2,  "unit": "percent" }, "name": "HV battery charge",      "suggestedMetric": "stateOfCharge"},
-    {"id": "FORTE_HVBAT_TARGET_VOLT", "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 6553,  "div": 10, "unit": "volts"   }, "name": "EVSE target current",    "description": "EVSE = Electric vehicle supply equipment"},
-    {"id": "FORTE_HVBAT_DC_CHRGNG",   "path": "Battery", "fmt": {"bix": 140, "len": 1,  "max": 1,                "unit": "offon"   }, "name": "DC charging"},
-    {"id": "FORTE_HVBAT_TARGET_CURR", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6553,  "div": 10, "unit": "amps"    }, "name": "EVSE target voltage",    "description": "EVSE = Electric vehicle supply equipment"},
-    {"id": "FORTE_HVBAT_CHRG_CNT",    "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 65535,            "unit": "scalar"  }, "name": "Number of DC charges"},
-    {"id": "FORTE_DC_CHRG_TIME",      "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 65535,            "unit": "hours"   }, "name": "Total DC charging time"}
-  ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "FORTE_DOOR_RL",        "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1,                             "unit": "noyes" }, "name": "Rear left door open?"},
@@ -26,43 +17,43 @@
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_LOCK_FR",      "path": "Doors",        "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door Lock Front Right (Raw)"},
-    {"id": "FORTE_LOCK_FL",      "path": "Doors",        "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door Lock Front Left (Raw)"},
-    {"id": "FORTE_REVERSE_GEAR", "path": "Transmission", "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse Gear Selected"}
+    {"id": "FORTE_LOCK_FR",      "path": "Doors",        "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door lock front right"},
+    {"id": "FORTE_LOCK_FL",      "path": "Doors",        "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "scalar" }, "name": "Door lock front left "},
+    {"id": "FORTE_REVERSE_GEAR", "path": "Transmission", "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard Switch (Raw)"},
-    {"id": "FORTE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight Switch (Raw >2)"}
+    {"id": "FORTE_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
+    {"id": "FORTE_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog Light On"}
+    {"id": "FORTE_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 40, "len": 8, "max": 1, "unit": "noyes" }, "name": "Defog light on"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_TURN_L", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Left turn signal on? (Raw >1)"},
-    {"id": "FORTE_TURN_R", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 3, "unit": "noyes" }, "name": "Right turn signal on? (Raw >3)"}
+    {"id": "FORTE_TURN_L", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 1, "unit": "noyes" }, "name": "Left turn signal on? (raw >1)"},
+    {"id": "FORTE_TURN_R", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 1, "nullmin": 0, "nullmax": 3, "unit": "noyes" }, "name": "Right turn signal on? (raw >3)"}
   ]},
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_HL_HIGH", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight High Beam On"},
-    {"id": "FORTE_HL_LOW",  "path": "Lights", "fmt": {"bix": 56, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight Low Beam On"}
+    {"id": "FORTE_HL_HIGH", "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight high beam on"},
+    {"id": "FORTE_HL_LOW",  "path": "Lights", "fmt": {"bix": 56, "len": 8, "max": 1, "div": 12, "unit": "noyes" }, "name": "Headlight low beam on"}
   ]},
 { "hdr": "7A0", "rax": "7A8", "cmd": {"22": "C00B"}, "freq": 15, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5, "unit": "psi"     }, "name": "TPMS Pressure Front Left",     "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "FORTE_TT_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "unit": "celsius" }, "name": "TPMS Temperature Front Left"},
-    {"id": "FORTE_TW_FL", "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                         "unit": "noyes"   }, "name": "TPMS Alert Front Left"},
-    {"id": "FORTE_TP_FR", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5, "unit": "psi"     }, "name": "TPMS Pressure Front Right",    "suggestedMetric": "frontRightTirePressure"},
-    {"id": "FORTE_TT_FR", "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,           "unit": "celsius" }, "name": "TPMS Temperature Front Right"},
-    {"id": "FORTE_TW_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                         "unit": "noyes"   }, "name": "TPMS Alert Front Right"},
-    {"id": "FORTE_TP_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5, "unit": "psi"     }, "name": "TPMS Pressure Rear Right",     "suggestedMetric": "rearRightTirePressure"},
-    {"id": "FORTE_TT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,           "unit": "celsius" }, "name": "TPMS Temperature Rear Right"},
-    {"id": "FORTE_TW_RR", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                         "unit": "noyes"   }, "name": "TPMS Alert Rear Right"},
-    {"id": "FORTE_TP_RL", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5, "unit": "psi"     }, "name": "TPMS Pressure Rear Left",      "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "FORTE_TT_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,           "unit": "celsius" }, "name": "TPMS Temperature Rear Left"},
-    {"id": "FORTE_TW_RL", "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                         "unit": "noyes"   }, "name": "TPMS Alert Rear Left"}
+    {"id": "FORTE_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,               "unit": "psi"     }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "FORTE_TT_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "sign": true, "unit": "celsius" }, "name": "Front left tire temperature"},
+    {"id": "FORTE_TW_FL", "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                                       "unit": "noyes"   }, "name": "Front left tire alert"},
+    {"id": "FORTE_TP_FR", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5,               "unit": "psi"     }, "name": "Front right tire pressure",    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "FORTE_TT_FR", "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,           "sign": true, "unit": "celsius" }, "name": "Front right tire temperature"},
+    {"id": "FORTE_TW_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                                       "unit": "noyes"   }, "name": "Front right tire alert"},
+    {"id": "FORTE_TP_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5,               "unit": "psi"     }, "name": "Rear right tire pressure",     "suggestedMetric": "rearRightTirePressure"},
+    {"id": "FORTE_TT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,           "sign": true, "unit": "celsius" }, "name": "Rear right tire temperature"},
+    {"id": "FORTE_TW_RR", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                                       "unit": "noyes"   }, "name": "Rear right tire alert"},
+    {"id": "FORTE_TP_RL", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,               "unit": "psi"     }, "name": "Rear left tire pressure",      "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "FORTE_TT_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,           "sign": true, "unit": "celsius" }, "name": "Rear left tire temperature"},
+    {"id": "FORTE_TW_RL", "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                                       "unit": "noyes"   }, "name": "Rear left tire alert"}
   ]},
 { "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
@@ -70,17 +61,17 @@
   ]},
 { "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                     "unit": "liters"     }, "name": "Fuel level (volume)"},
-    {"id": "FORTE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,         "div": 12.8, "unit": "volts"      }, "name": "Cluster Voltage"},
-    {"id": "FORTE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 4294967295,              "unit": "kilometers" }, "name": "Odometer (Metric)",   "suggestedMetric": "odometer"},
-    {"id": "FORTE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 4294967295,              "unit": "miles"      }, "name": "Odometer (Imperial)", "suggestedMetric": "odometer"}
+    {"id": "FORTE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level (volume)"},
+    {"id": "FORTE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
+    {"id": "FORTE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
+    {"id": "FORTE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D1", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
-    {"id": "FORTE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "FORTE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "FORTE_RL_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "FORTE_RR_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "FORTE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "FORTE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "FORTE_RL_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "FORTE_RR_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "7D1", "dbg": true, "cmd": {"22": "4000"}, "freq": 1,
   "signals": [
@@ -91,14 +82,14 @@
   ]},
 { "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
-    {"id": "FORTE_VSS_AVG",     "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "ABS Speed (Avg)"},
-    {"id": "FORTE_TIRE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "ABS Speed Front Left"},
-    {"id": "FORTE_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "ABS Speed Front Right"},
-    {"id": "FORTE_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "ABS Speed Rear Right"},
-    {"id": "FORTE_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "ABS Speed Rear Left"},
-    {"id": "FORTE_TC_SWITCH",   "path": "Movement", "fmt": {"bix": 150, "len": 1,  "max": 1,                                                 "unit": "noyes"             }, "name": "ABS Traction Control Switch (Raw)"},
-    {"id": "FORTE_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering Wheel Angle"},
-    {"id": "FORTE_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake Pressure"}
+    {"id": "FORTE_VSS_AVG",     "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Vehicle speed"},
+    {"id": "FORTE_TIRE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "FORTE_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "FORTE_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
+    {"id": "FORTE_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "FORTE_TC_SWITCH",   "path": "Movement", "fmt": {"bix": 150, "len": 1,  "max": 1,                                                 "unit": "noyes"             }, "name": "Wheel traction control switch"},
+    {"id": "FORTE_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
+    {"id": "FORTE_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
   ]},
 { "hdr": "7D4", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
@@ -106,18 +97,18 @@
   ]},
 { "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_BMS_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                "div": 2,                 "unit": "percent"   }, "name": "BMS State Of Charge"},
-    {"id": "FORTE_BMS_CHG_PWR",    "path": "Battery", "fmt": {"bix": 40,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "BMS Available Charge Power"},
-    {"id": "FORTE_BMS_DISCHG_PWR", "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "BMS Available Discharge Power"},
-    {"id": "FORTE_BMS_MIN_TEMP",   "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS Battery Min Temp"},
-    {"id": "FORTE_BMS_MOD1_TEMP",  "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS Battery Mod 1 Temp"},
-    {"id": "FORTE_BMS_MOD2_TEMP",  "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS Battery Mod 2 Temp"},
-    {"id": "FORTE_BMS_MOD3_TEMP",  "path": "Battery", "fmt": {"bix": 144, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS Battery Mod 3 Temp"},
-    {"id": "FORTE_BMS_MOD4_TEMP",  "path": "Battery", "fmt": {"bix": 152, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "BMS Battery Mod 4 Temp"}
+    {"id": "FORTE_BMS_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                "div": 2,                 "unit": "percent"   }, "name": "Battery state of charge"},
+    {"id": "FORTE_BMS_CHG_PWR",    "path": "Battery", "fmt": {"bix": 40,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "Battery available charge power"},
+    {"id": "FORTE_BMS_DISCHG_PWR", "path": "Battery", "fmt": {"bix": 56,  "len": 16, "max": 655.35,             "div": 100,               "unit": "kilowatts" }, "name": "Battery available discharge power"},
+    {"id": "FORTE_BMS_MIN_TEMP",   "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery min temperature"},
+    {"id": "FORTE_BMS_MOD1_TEMP",  "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery module 1 temperature"},
+    {"id": "FORTE_BMS_MOD2_TEMP",  "path": "Battery", "fmt": {"bix": 136, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery module 2 temperature"},
+    {"id": "FORTE_BMS_MOD3_TEMP",  "path": "Battery", "fmt": {"bix": 144, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery module 3 temperature"},
+    {"id": "FORTE_BMS_MOD4_TEMP",  "path": "Battery", "fmt": {"bix": 152, "len": 8,  "max": 80,     "min": -40,             "sign": true, "unit": "celsius"   }, "name": "Battery module 4 temperature"}
   ]},
 { "hdr": "7DF", "rax": "7E8", "dbg": true, "cmd": {"01": "34"}, "freq": 1,
   "signals": [
-    {"id": "FORTE_SAE_LAMBDA_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 2, "mul": 2, "div": 32768, "unit": "scalar" }, "name": "SAE Lambda B1S1 (Actual)"}
+    {"id": "FORTE_SAE_LAMBDA_B1S1", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 2, "mul": 2, "div": 32768, "unit": "scalar" }, "name": "SAE lambda B1S1"}
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"21": "01"}, "freq": 1,
   "signals": [
@@ -144,35 +135,35 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "ED02"}, "freq": 1,
   "signals": [
-    {"id": "FORTE_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 215, "min": -40, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
+    {"id": "FORTE_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 215, "min": -4, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_INTAKE_TEMP", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 207, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Intake Air Temperature"},
-    {"id": "FORTE_OIL_TEMP",    "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 207, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Engine Oil Temperature"}
+    {"id": "FORTE_INTAKE_TEMP", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143.254781, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
+    {"id": "FORTE_OIL_TEMP",    "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 143.254781, "div": 1.3333, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.7, "div": 1220.7, "unit": "seconds" }, "name": "Injection Duration Cyl 1"},
-    {"id": "FORTE_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.7, "div": 1220.7, "unit": "seconds" }, "name": "Injection Duration Cyl 2"},
-    {"id": "FORTE_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.7, "div": 1220.7, "unit": "seconds" }, "name": "Injection Duration Cyl 3"},
-    {"id": "FORTE_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.7, "div": 1220.7, "unit": "seconds" }, "name": "Injection Duration Cyl 4"}
+    {"id": "FORTE_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 1"},
+    {"id": "FORTE_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 2"},
+    {"id": "FORTE_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 3"},
+    {"id": "FORTE_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.686409, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cyl 4"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E004"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux Battery SOC"},
-    {"id": "FORTE_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux Battery SOH"}
+    {"id": "FORTE_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery SOC"},
+    {"id": "FORTE_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery SOH"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
   "signals": [
-    {"id": "FORTE_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Retard Cyl 1"},
-    {"id": "FORTE_KNOCK_RETARD_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Retard Cyl 2"},
-    {"id": "FORTE_KNOCK_RETARD_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Retard Cyl 3"},
-    {"id": "FORTE_KNOCK_RETARD_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Retard Cyl 4"},
-    {"id": "FORTE_KNOCK_LEARN_1",  "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 1"},
-    {"id": "FORTE_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 2"},
-    {"id": "FORTE_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 3"},
-    {"id": "FORTE_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 50, "min": -50, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock Learn Cyl 4"}
+    {"id": "FORTE_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 1"},
+    {"id": "FORTE_KNOCK_RETARD_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 2"},
+    {"id": "FORTE_KNOCK_RETARD_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 3"},
+    {"id": "FORTE_KNOCK_RETARD_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard cyl 4"},
+    {"id": "FORTE_KNOCK_LEARN_1",  "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 1"},
+    {"id": "FORTE_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 2"},
+    {"id": "FORTE_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 3"},
+    {"id": "FORTE_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cyl 4"}
   ]},
 { "hdr": "7E1", "dbg": true, "cmd": {"21": "A0"}, "freq": 1,
   "signals": [
@@ -318,7 +309,7 @@
     {"id": "FORTE_HVBAT_PLUG_RAPD",  "path": "Battery", "fmt": {"bix": 73,  "len": 1,  "max": 1,                                                            "unit": "offon"         }, "name": "Rapid charge port state",           "suggestedMetric": "pluggedIn"},
     {"id": "FORTE_HVBAT_PLUG_NORM",  "path": "Battery", "fmt": {"bix": 74,  "len": 1,  "max": 1,                                                            "unit": "offon"         }, "name": "Normal charge port state",          "suggestedMetric": "pluggedIn"},
     {"id": "FORTE_HVBAT_CURR",       "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 6553.5,                              "div": 10,               "unit": "amps"          }, "name": "HV battery current"},
-    {"id": "FORTE_HVBAT_VDC",        "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 6553.5,                              "div": 10,               "unit": "volts"         }, "name": "HV battery voltage (DC)"},
+    {"id": "FORTE_HVBAT_VDC",        "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 6553.5,                              "div": 10,               "unit": "volts"         }, "name": "HV battery voltage"},
     {"id": "FORTE_HVBAT_T_MAX",      "path": "Battery", "fmt": {"bix": 112, "len": 8,  "max": 127,        "min": -127,                        "sign": true, "unit": "celsius"       }, "name": "HV battery temperature (max)"},
     {"id": "FORTE_HVBAT_T_MIN",      "path": "Battery", "fmt": {"bix": 120, "len": 8,  "max": 127,        "min": -127,                        "sign": true, "unit": "celsius"       }, "name": "HV battery temperature (min)"},
     {"id": "FORTE_HVBAT_MOD1_T",     "path": "Battery", "fmt": {"bix": 128, "len": 8,  "max": 127,        "min": -127,                        "sign": true, "unit": "celsius"       }, "name": "HV battery temperature (module 1)"},
@@ -332,11 +323,11 @@
     {"id": "FORTE_C_V_MIN_ID",       "path": "Battery", "fmt": {"bix": 208, "len": 8,  "max": 255,                                                          "unit": "scalar"        }, "name": "Minimum cell voltage id",           "description": "The id of the cell with the lowest voltage."},
     {"id": "FORTE_HVBAT_FAN_STATUS", "path": "Battery", "fmt": {"bix": 216, "len": 8,  "max": 255,                                                          "unit": "scalar"        }, "name": "HV battery fan status"},
     {"id": "FORTE_HVBAT_FAN",        "path": "Battery", "fmt": {"bix": 224, "len": 8,  "max": 255,                                                          "unit": "hertz"         }, "name": "HV battery fan"},
-    {"id": "FORTE_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 255,                                 "div": 10,               "unit": "volts"         }, "name": "Battery auxiliary voltage",         "suggestedMetric": "starterBatteryVoltage"},
-    {"id": "FORTE_HVBAT_CHRG_TOT_C", "path": "Battery", "fmt": {"bix": 240, "len": 32, "max": 429496729,                           "div": 10,               "unit": "ampereHours"   }, "name": "Total charge (current)"},
-    {"id": "FORTE_HVBAT_DSCH_TOT_C", "path": "Battery", "fmt": {"bix": 272, "len": 32, "max": 429496729,                           "div": 10,               "unit": "ampereHours"   }, "name": "Total discharge (current)"},
-    {"id": "FORTE_HVBAT_CHRG_TOT_E", "path": "Battery", "fmt": {"bix": 304, "len": 32, "max": 429496729,                           "div": 10,               "unit": "kilowattHours" }, "name": "Total charge (energy)"},
-    {"id": "FORTE_HVBAT_DSCH_TOT_E", "path": "Battery", "fmt": {"bix": 336, "len": 32, "max": 429496729,                           "div": 10,               "unit": "kilowattHours" }, "name": "Total discharge (energy)"},
+    {"id": "FORTE_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 25.5,                                "div": 10,               "unit": "volts"         }, "name": "Battery auxiliary voltage",         "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "FORTE_HVBAT_CHRG_TOT_C", "path": "Battery", "fmt": {"bix": 240, "len": 32, "max": 429496729,                           "div": 10,               "unit": "ampereHours"   }, "name": "Total charge current"},
+    {"id": "FORTE_HVBAT_DSCH_TOT_C", "path": "Battery", "fmt": {"bix": 272, "len": 32, "max": 429496729,                           "div": 10,               "unit": "ampereHours"   }, "name": "Total discharge current"},
+    {"id": "FORTE_HVBAT_CHRG_TOT_E", "path": "Battery", "fmt": {"bix": 304, "len": 32, "max": 429496729,                           "div": 10,               "unit": "kilowattHours" }, "name": "Total charge energy"},
+    {"id": "FORTE_HVBAT_DSCH_TOT_E", "path": "Battery", "fmt": {"bix": 336, "len": 32, "max": 429496729,                           "div": 10,               "unit": "kilowattHours" }, "name": "Total discharge energy"},
     {"id": "FORTE_DRIVE_TIME",       "path": "Stats",   "fmt": {"bix": 368, "len": 32, "max": 4294967295,                                                   "unit": "seconds"       }, "name": "Total drive time"},
     {"id": "FORTE_IGN",              "path": "Battery", "fmt": {"bix": 405, "len": 1,  "max": 1,                                                            "unit": "offon"         }, "name": "Ignition"},
     {"id": "FORTE_INVRT_CV",         "path": "Battery", "fmt": {"bix": 408, "len": 16, "max": 65535,                                                        "unit": "volts"         }, "name": "Inverter capacitor voltage"},

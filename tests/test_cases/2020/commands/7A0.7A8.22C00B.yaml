@@ -11,10 +11,10 @@ test_cases:
     FORTE_TP_FR: 14.6
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 75
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 75.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -26,14 +26,14 @@ test_cases:
     7A823460000FF82A282
     7A824A282A282A2AAAA
   expected_values:
-    FORTE_TP_FL: 32
+    FORTE_TP_FL: 32.0
     FORTE_TP_FR: 13.8
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 68
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 68.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -46,13 +46,13 @@ test_cases:
     7A824A282A282A2AAAA
   expected_values:
     FORTE_TP_FL: 32.2
-    FORTE_TP_FR: 16
+    FORTE_TP_FR: 16.0
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 79
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 79.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -68,10 +68,10 @@ test_cases:
     FORTE_TP_FR: 15.6
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 79
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 79.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -84,13 +84,13 @@ test_cases:
     7A824A282A282A2AAAA
   expected_values:
     FORTE_TP_FL: 32.4
-    FORTE_TP_FR: 16
+    FORTE_TP_FR: 16.0
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 79
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 79.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -106,10 +106,10 @@ test_cases:
     FORTE_TP_FR: 15.8
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 79
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 79.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -122,13 +122,13 @@ test_cases:
     7A824A282A282A2AAAA
   expected_values:
     FORTE_TP_FL: 32.4
-    FORTE_TP_FR: 16
+    FORTE_TP_FR: 16.0
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 79
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 79.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -144,10 +144,10 @@ test_cases:
     FORTE_TP_FR: 14.8
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 73
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 73.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -160,13 +160,13 @@ test_cases:
     7A824A282A282A2AAAA
   expected_values:
     FORTE_TP_FL: 32.8
-    FORTE_TP_FR: 16
+    FORTE_TP_FR: 16.0
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 80
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 80.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -178,14 +178,14 @@ test_cases:
     7A8235D0000FF82A282
     7A824A282A282A2AAAA
   expected_values:
-    FORTE_TP_FL: 35
+    FORTE_TP_FL: 35.0
     FORTE_TP_FR: 17.8
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 96
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 96.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -197,14 +197,14 @@ test_cases:
     7A823600000FF82A282
     7A824A282A282A2AAAA
   expected_values:
-    FORTE_TP_FL: 35
+    FORTE_TP_FL: 35.0
     FORTE_TP_FR: 19.4
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
     FORTE_TT_FL: 100
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -220,10 +220,10 @@ test_cases:
     FORTE_TP_FR: 17.2
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 85
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 85.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -239,10 +239,10 @@ test_cases:
     FORTE_TP_FR: 19.2
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 99
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 99.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
@@ -255,13 +255,13 @@ test_cases:
     7A824A282A282A2AAAA
   expected_values:
     FORTE_TP_FL: 36.2
-    FORTE_TP_FR: 19
+    FORTE_TP_FR: 19.0
     FORTE_TP_RL: 0
     FORTE_TP_RR: 0
-    FORTE_TT_FL: 96
-    FORTE_TT_FR: 0
-    FORTE_TT_RL: 100
-    FORTE_TT_RR: 0
+    FORTE_TT_FL: 96.0
+    FORTE_TT_FR: 0.0
+    FORTE_TT_RL: -1.0
+    FORTE_TT_RR: 0.0
     FORTE_TW_FL: 0
     FORTE_TW_FR: 1
     FORTE_TW_RL: 1
