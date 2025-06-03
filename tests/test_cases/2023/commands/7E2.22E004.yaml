@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.22E004
+command_id: 7E2.22E004
 test_cases:
 - response: |-
     7E8103F62E004FFFF01
@@ -12,8 +12,7 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
   expected_values:
-    FORTE_AUX_SOC: 0
-    FORTE_AUX_SOH: 0
+    FORTE_VPWR: 100
 - response: |-
     7E8103F62E004FFFF01
     7E82100A81B161D7113
@@ -26,8 +25,7 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
   expected_values:
-    FORTE_AUX_SOC: 0
-    FORTE_AUX_SOH: 0
+    FORTE_VPWR: 100
 - response: |-
     7E8103F62E004FFFF01
     7E82100FA1D90114C14
@@ -40,5 +38,4 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
   expected_values:
-    FORTE_AUX_SOC: 0
-    FORTE_AUX_SOH: 0
+    FORTE_VPWR: 100

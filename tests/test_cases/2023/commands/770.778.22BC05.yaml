@@ -5,4 +5,3 @@ test_cases:
     778210000000000AAAA
   expected_values:
     FORTE_HAZARD_SW: 0
-    FORTE_HL_SW: 0
