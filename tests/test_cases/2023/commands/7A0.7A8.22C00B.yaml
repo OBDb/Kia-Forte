@@ -10,8 +10,8 @@ test_cases:
     FORTE_TP_FL: 36.6
     FORTE_TP_FR: 36.6
     FORTE_TP_RL: 37.2
-    FORTE_TP_RR: 37.0
-    FORTE_TT_FL: 31.0
-    FORTE_TT_FR: 31.0
-    FORTE_TT_RL: 27.0
-    FORTE_TT_RR: 26.0
+    FORTE_TP_RR: 37
+    FORTE_TT_FL: 31
+    FORTE_TT_FR: 31
+    FORTE_TT_RL: 27
+    FORTE_TT_RR: 26
