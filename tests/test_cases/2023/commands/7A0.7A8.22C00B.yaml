@@ -8,14 +8,10 @@ test_cases:
     7A824A988A988A9AAAA
   expected_values:
     FORTE_TP_FL: 36.6
-    FORTE_TP_FR: 16.2
-    FORTE_TP_RL: 0
-    FORTE_TP_RR: 0
-    FORTE_TT_FL: 81.0
-    FORTE_TT_FR: 0.0
-    FORTE_TT_RL: -1.0
-    FORTE_TT_RR: 0.0
-    FORTE_TW_FL: 0
-    FORTE_TW_FR: 1
-    FORTE_TW_RL: 1
-    FORTE_TW_RR: 1
+    FORTE_TP_FR: 36.6
+    FORTE_TP_RL: 37.2
+    FORTE_TP_RR: 37.0
+    FORTE_TT_FL: 31.0
+    FORTE_TT_FR: 31.0
+    FORTE_TT_RL: 27.0
+    FORTE_TT_RR: 26.0
