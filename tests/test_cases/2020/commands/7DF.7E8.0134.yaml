@@ -1,23 +1,23 @@
 command_id: 7DF.7E8.0134
 test_cases:
-- response: 7E80641345F4B7EC1
-  expected_values:
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 1.98053
-- response: 7E80641346E0D7F67
-  expected_values:
-    FORTE_SAE_LAMBDA_B1S1: 1.99066
-- response: '7E806413480108000'
-  expected_values:
+  response: 7E80641345F4B7EC1
+- expected_values:
+    FORTE_SAE_LAMBDA_B1S1: 1.98621
+  response: 7E8064134670C7F1E
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
-- response: 7E806413480707FFF
-  expected_values:
+  response: '7E806413480108000'
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 1.99994
-- response: 7E8064134FF5F8139
-  expected_values:
+  response: 7E806413480707FFF
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
-- response: 7E8064134FFFF814E
-  expected_values:
+  response: 7E8064134FF5F8139
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
-- response: 7E8064134FFFF8206
-  expected_values:
+  response: 7E8064134FFFF814B
+- expected_values:
     FORTE_SAE_LAMBDA_B1S1: 2
+  response: 7E8064134FFFF8206

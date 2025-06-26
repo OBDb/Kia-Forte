@@ -1,44 +1,44 @@
 command_id: 770.778.22BC04
 test_cases:
-- response: |-
+- expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 0
+  response: |-
     778100B62BC04B53770
     778212000000E00AAAA
-  expected_values:
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
     FORTE_REVERSE_GEAR: 0
-- response: |-
+  response: |-
     778100B62BC04B53770
     778212001000E00AAAA
-  expected_values:
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
     FORTE_REVERSE_GEAR: 0
-- response: |-
+  response: |-
     778100B62BC04B53770
     778212005000E00AAAA
-  expected_values:
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
-    FORTE_REVERSE_GEAR: 0
-- response: |-
+    FORTE_REVERSE_GEAR: 1
+  response: |-
     778100B62BC04B53770
     778212009000E00AAAA
-  expected_values:
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
     FORTE_REVERSE_GEAR: 1
-- response: |-
+  response: |-
     778100B62BC04B53770
     77821200C000E00AAAA
-  expected_values:
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
     FORTE_REVERSE_GEAR: 1
-- response: |-
+  response: |-
     778100B62BC04B53770
     77821200D000E00AAAA
-  expected_values:
-    FORTE_LOCK_FL: 0
-    FORTE_LOCK_FR: 0
-    FORTE_REVERSE_GEAR: 1

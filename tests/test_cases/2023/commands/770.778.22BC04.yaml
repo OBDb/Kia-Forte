@@ -1,9 +1,16 @@
 command_id: 770.778.22BC04
 test_cases:
-- response: |-
+- expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 0
+  response: |-
     778100B62BC04B53770
-    778212009000E00AAAA
-  expected_values:
+    778212001000E00AAAA
+- expected_values:
     FORTE_LOCK_FL: 0
     FORTE_LOCK_FR: 0
     FORTE_REVERSE_GEAR: 1
+  response: |-
+    778100B62BC04B53770
+    778212009000E00AAAA
