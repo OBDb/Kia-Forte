@@ -1,9 +1,18 @@
 command_id: 770.778.22BC03
 test_cases:
-- response: |-
+- expected_values:
+    FORTE_BELT_DRIVER: 1
+    FORTE_BELT_PASSENGER: 0
+    FORTE_DOOR_FL: 0
+    FORTE_DOOR_FR: 0
+    FORTE_DOOR_RL: 0
+    FORTE_DOOR_RR: 0
+    FORTE_HANDBRAKE: 0
+    FORTE_TRUNK: 0
+  response: |-
     778100B62BC03FFEE20
     778216300600000AAAA
-  expected_values:
+- expected_values:
     FORTE_BELT_DRIVER: 1
     FORTE_BELT_PASSENGER: 0
     FORTE_DOOR_FL: 0
@@ -12,15 +21,6 @@ test_cases:
     FORTE_DOOR_RR: 0
     FORTE_HANDBRAKE: 0
     FORTE_TRUNK: 0
-- response: |-
+  response: |-
     778100B62BC03FFEE20
     778216300620000AAAA
-  expected_values:
-    FORTE_BELT_DRIVER: 1
-    FORTE_BELT_PASSENGER: 0
-    FORTE_DOOR_FL: 0
-    FORTE_DOOR_FR: 0
-    FORTE_DOOR_RL: 0
-    FORTE_DOOR_RR: 0
-    FORTE_HANDBRAKE: 0
-    FORTE_TRUNK: 0

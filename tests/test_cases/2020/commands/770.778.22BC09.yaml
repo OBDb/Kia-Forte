@@ -1,26 +1,26 @@
 command_id: 770.778.22BC09
 test_cases:
-- response: |-
+- expected_values:
+    FORTE_HL_HIGH: 0
+    FORTE_HL_LOW: 0
+  response: |-
     778100B62BC09340003
     77821CC00000000AAAA
-  expected_values:
-    FORTE_HL_HIGH: 0
-    FORTE_HL_LOW: 0
-- response: |-
-    778100B62BC09340003
-    77821CC00000030AAAA
-  expected_values:
+- expected_values:
     FORTE_HL_HIGH: 0
     FORTE_HL_LOW: 1
-- response: |-
+  response: |-
     778100B62BC09340003
-    77821CC0000C000AAAA
-  expected_values:
+    77821CC00000030AAAA
+- expected_values:
     FORTE_HL_HIGH: 1
     FORTE_HL_LOW: 0
-- response: |-
+  response: |-
     778100B62BC09340003
-    77821CC0000C003AAAA
-  expected_values:
+    77821CC0000C000AAAA
+- expected_values:
     FORTE_HL_HIGH: 1
     FORTE_HL_LOW: 0.25
+  response: |-
+    778100B62BC09340003
+    77821CC0000C003AAAA
