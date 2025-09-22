@@ -14,3 +14,10 @@ test_cases:
   response: |-
     778100B62BC04B53770
     778212009000E00AAAA
+- expected_values:
+    FORTE_LOCK_FL: 0
+    FORTE_LOCK_FR: 0
+    FORTE_REVERSE_GEAR: 1
+  response: |-
+    778100B62BC04B53770
+    77821200D000E00AAAA
