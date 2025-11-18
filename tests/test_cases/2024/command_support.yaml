@@ -83,6 +83,7 @@ unsupported_commands_by_ecu:
   - 7D4.7DC.2101:FORTE_STEER_ANGLE_V2
   - 7D4.7DC.220101
   "7E0":
+  - 7E0.0105:ECT
   - 7E0.2118
   - 7E0.2221A0
   - 7E0.22ED02
