@@ -50,14 +50,14 @@
   "signals": [
     {"id": "FORTE_VSS", "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2022], "from": 2024 },
+{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2018, 2019, 2022], "from": 2024 },
   "signals": [
     {"id": "FORTE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level (volume)"},
     {"id": "FORTE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
     {"id": "FORTE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
     {"id": "FORTE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014, 2015], "from": 2017 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2015], "from": 2017 },
   "signals": [
     {"id": "FORTE_VSS_AVG",        "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Vehicle speed"},
     {"id": "FORTE_TIRE_FL_VSS_V1", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
@@ -75,11 +75,11 @@
     {"id": "FORTE_TIRE_RL_VSS_V2", "path": "Movement", "fmt": {"bix": 64, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "FORTE_TIRE_RR_VSS_V2", "path": "Movement", "fmt": {"bix": 72, "len": 8, "max": 205, "min": -50, "add": -50, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2018 },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015], "from": 2018 },
   "signals": [
     {"id": "FORTE_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 72, "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014, 2015], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2015], "from": 2018 },
   "signals": [
     {"id": "FORTE_MIS_1", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
     {"id": "FORTE_MIS_2", "path": "Engine", "fmt": {"bix": 72,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
@@ -117,7 +117,7 @@
     {"id": "FORTE_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 400,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate position"},
     {"id": "FORTE_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate setpoint"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015], "from": 2017 },
   "signals": [
     {"id": "FORTE_VSS_V3", "path": "Movement",     "fmt": {"bix": 48,  "len": 8, "max": 255,                         "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
     {"id": "FORTE_ATF_T",  "path": "Transmission", "fmt": {"bix": 104, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius"           }, "name": "Automatic transmission fluid temperature"},
