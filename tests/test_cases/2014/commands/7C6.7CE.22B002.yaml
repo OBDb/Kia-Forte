@@ -1,0 +1,20 @@
+command_id: 7C6.7CE.22B002
+test_cases:
+- expected_values:
+    FORTE_CLUSTER_VOLTAGE: 13.125
+    FORTE_FLI_VOL: 26
+  response: |-
+    7CE100A62B002C00000
+    7CE21001AA800C00000
+- expected_values:
+    FORTE_CLUSTER_VOLTAGE: 12.5
+    FORTE_FLI_VOL: 31
+  response: |-
+    7CE100A62B002C00000
+    7CE21001FA000C00000
+- expected_values:
+    FORTE_CLUSTER_VOLTAGE: 11.09375
+    FORTE_FLI_VOL: 32
+  response: |-
+    7CE100A62B002C00000
+    7CE2100208E00C00000
