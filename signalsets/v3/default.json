@@ -46,7 +46,7 @@
     {"id": "FORTE_TT_RL",      "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 205, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Rear left tire temperature"},
     {"id": "FORTE_RR_INVALID", "path": "Tires", "fmt": {"bix": 158, "len": 1, "max": 1,                                                     "unit": "noyes"   }, "name": "Rear right tire reading invalid?"}
   ]},
-{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.5, "dbgfilter": { "to": 2019, "years": [2021, 2022], "from": 2024 },
   "signals": [
     {"id": "FORTE_VSS", "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
