@@ -1,0 +1,7 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    FORTE_HAZARD_SW: 0
+  response: |-
+    778100B62BC056F1324
+    778210000000000AAAA
