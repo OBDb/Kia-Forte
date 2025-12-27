@@ -5,3 +5,8 @@ test_cases:
   response: |-
     778100B62BC056F1324
     778210000000000AAAA
+- expected_values:
+    FORTE_HAZARD_SW: 80
+  response: |-
+    778100B62BC056F1324
+    778210050000000AAAA
