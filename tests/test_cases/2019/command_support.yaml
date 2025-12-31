@@ -87,6 +87,7 @@ supported_commands_by_ecu:
   - 011C:OBDSUP
   - 0130:WARM_UPS
   - 0131:CLR_DIST
+  - 7E1.7E9.0131
 unsupported_commands_by_ecu:
   "7D4":
   - 7D4.7DC.2101:FORTE_STEER_ANGLE_V2
