@@ -1,6 +1,13 @@
 command_id: 7D4.7DC.2101
 test_cases:
 - expected_values:
+    FORTE_STEER_ANGLE_V2: 0
+  response: |-
+    7DC101761010C0F00FF
+    7DC21D8FF0000000000
+    7DC2200001617000000
+    7DC2300004C00000000
+- expected_values:
     FORTE_STEER_ANGLE_V2: -25.6
   response: |-
     7DC101761010E0900FF
