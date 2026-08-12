@@ -11,6 +11,12 @@ test_cases:
     FORTE_HL_LOW: 1
   response: |-
     778100B62BC09040030
+    778213F0000000CAAAA
+- expected_values:
+    FORTE_HL_HIGH: 0
+    FORTE_HL_LOW: 1
+  response: |-
+    778100B62BC09040030
     778213F00000010AAAA
 - expected_values:
     FORTE_HL_HIGH: 0
