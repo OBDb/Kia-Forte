@@ -5,3 +5,8 @@ test_cases:
   response: |-
     778100B62BC07080000
     778210000000000AAAA
+- expected_values:
+    FORTE_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07080003
+    778210000000000AAAA
