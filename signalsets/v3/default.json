@@ -129,7 +129,7 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022] },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "FORTE_GEAR_CUR",   "path": "Transmission", "fmt": {"bix": 188, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Current gear"},
     {"id": "FORTE_GEAR_NXT",   "path": "Transmission", "fmt": {"bix": 196, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Next gear"},
