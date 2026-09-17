@@ -4,6 +4,11 @@ test_cases:
     CLR_DIST: 40922
   response: 7E80441319FDA
 - expected_values:
+    CLR_DIST: 40951
+  response: |-
+    7E80441319FF7
+    7E8024700
+- expected_values:
     CLR_DIST: 57599
   response: 7E8044131E0FF
 - expected_values:
