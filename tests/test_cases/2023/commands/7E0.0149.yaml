@@ -4,5 +4,5 @@ test_cases:
     APP_D: 14.90196
   response: '7E803414926'
 - expected_values:
-    APP_D: 37.2549
-  response: 7E80341495F
+    APP_D: 40
+  response: '7E803414966'
