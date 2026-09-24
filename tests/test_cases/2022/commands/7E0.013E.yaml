@@ -1,0 +1,26 @@
+command_id: 7E0.013E
+test_cases:
+- expected_values:
+    CATEMP12: 350.4
+  response: 7E804413E0F40
+- expected_values:
+    CATEMP12: 462.8
+  response: 7E804413E13A4
+- expected_values:
+    CATEMP12: 544.4
+  response: 7E804413E16D4
+- expected_values:
+    CATEMP12: 666.1
+  response: 7E804413E1B95
+- expected_values:
+    CATEMP12: 684.9
+  response: 7E804413E1C51
+- expected_values:
+    CATEMP12: 710.8
+  response: 7E804413E1D54
+- expected_values:
+    CATEMP12: 729.7
+  response: 7E804413E1E11
+- expected_values:
+    CATEMP12: 734.2
+  response: 7E804413E1E3E

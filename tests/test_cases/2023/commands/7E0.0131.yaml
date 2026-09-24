@@ -9,6 +9,11 @@ test_cases:
     7E80441319FF7
     7E8024700
 - expected_values:
+    CLR_DIST: 41077
+  response: |-
+    7E8044131A075
+    7E8024300
+- expected_values:
     CLR_DIST: 57599
   response: 7E8044131E0FF
 - expected_values:
