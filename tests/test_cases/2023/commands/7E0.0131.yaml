@@ -14,11 +14,11 @@ test_cases:
     7E8044131A075
     7E8024300
 - expected_values:
-    CLR_DIST: 57599
-  response: 7E8044131E0FF
+    CLR_DIST: 41215
+  response: 7E8044131A0FF
 - expected_values:
-    CLR_DIST: 57600
-  response: 7E8044131E100
+    CLR_DIST: 41216
+  response: 7E8044131A100
 - expected_values:
     CLR_DIST: 65535
   response: 7E8044131FFFF
