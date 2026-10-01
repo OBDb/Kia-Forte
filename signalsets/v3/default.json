@@ -371,7 +371,7 @@
     {"id": "FORTE_BOOST_P_UP",     "path": "Engine", "fmt": {"bix": 280, "len": 16, "blsb": true, "max": 5111, "mul": 39, "div": 500, "unit": "unknown" }, "name": "Boost pressure upstream"},
     {"id": "FORTE_BOOST_P_UP_DES", "path": "Engine", "fmt": {"bix": 312, "len": 16, "blsb": true, "max": 5111, "mul": 39, "div": 500, "unit": "unknown" }, "name": "Boost pressure upstream, desired"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022], "from": 2024 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2021, 2022] },
   "signals": [
     {"id": "FORTE_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "12 V battery state of charge"},
     {"id": "FORTE_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "12 V battery state of health"}
