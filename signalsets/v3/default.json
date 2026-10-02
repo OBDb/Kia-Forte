@@ -361,10 +361,10 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "dbgfilter": { "to": 2016 },
   "signals": [
-    {"id": "FORTE_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
-    {"id": "FORTE_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
-    {"id": "FORTE_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
-    {"id": "FORTE_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
+    {"id": "FORTE_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 1"},
+    {"id": "FORTE_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 2"},
+    {"id": "FORTE_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 3"},
+    {"id": "FORTE_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 4"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E003"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
@@ -453,11 +453,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 0.1, "dbgfilter": { "to": 2016, "years": [2021] },
   "signals": [
-    {"id": "FORTE_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81, "min": -10,             "div": 831.55690902, "add": -12, "unit": "psi"     }, "name": "Turbo boost pressure, gauge"},
-    {"id": "FORTE_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                "mul": 10,  "div": 65535,                    "unit": "volts"   }, "name": "Waste gate voltage"},
-    {"id": "FORTE_WG_DUTY",     "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 200,               "mul": 200, "div": 65535,                    "unit": "percent" }, "name": "Waste gate duty"},
-    {"id": "FORTE_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 400,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate position"},
-    {"id": "FORTE_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,               "mul": 400, "div": 65535,                    "unit": "percent" }, "name": "Waste gate set point"}
+    {"id": "FORTE_TURBO_BOOST", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 66.81,  "min": -10,              "div": 831.55690902, "add": -12,                                "unit": "psi"     }, "name": "Turbo boost pressure, gauge"},
+    {"id": "FORTE_WG_VOLTAGE",  "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 10,                  "mul": 10,  "div": 65535,                                                   "unit": "volts"   }, "name": "Waste gate voltage"},
+    {"id": "FORTE_WG_DUTY",     "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 200,                 "mul": 200, "div": 65535,                                                   "unit": "percent" }, "name": "Waste gate duty"},
+    {"id": "FORTE_WG_POSITION", "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200, "mul": 400, "div": 65535,                    "sign": true, "nullmin": -200, "unit": "percent" }, "name": "Waste gate position"},
+    {"id": "FORTE_WG_SETPOINT", "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 100,    "min": -200, "mul": 400, "div": 65535,                    "sign": true, "nullmin": -200, "unit": "percent" }, "name": "Waste gate set point"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E023"}, "freq": 1, "dbgfilter": { "to": 2022 },
   "signals": [
