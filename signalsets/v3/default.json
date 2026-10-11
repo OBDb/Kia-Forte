@@ -398,7 +398,7 @@
     {"id": "FORTE_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 3"},
     {"id": "FORTE_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E00D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00D"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "FORTE_MISFIRES_C1_CUR",                                "path": "Engine", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, current, cylinder 1"},
     {"id": "FORTE_MISFIRES_C2_CUR",                                "path": "Engine", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, current, cylinder 2"},
@@ -568,7 +568,7 @@
     {"id": "FORTE_CLUTCH_1_T", "path": "Transmission", "fmt": {"bix": 232, "len": 16, "max": 300, "min": -40, "mul": 2, "add": -40, "unit": "celsius" }, "name": "Clutch #1 temperature", "description": "Part of the dual clutch transition"},
     {"id": "FORTE_CLUTCH_2_T", "path": "Transmission", "fmt": {"bix": 248, "len": 16, "max": 300, "min": -40, "mul": 2, "add": -40, "unit": "celsius" }, "name": "Clutch #2 temperature", "description": "Part of the dual clutch transition"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "01A5"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A5"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
   "signals": [
     {"id": "FORTE_DUAL_CLU_TRANS_ODD",       "path": "Transmission", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                     "unit": "scalar"  }, "name": "Dual-clutch transmission odd shaft, gear engaged"},
     {"id": "FORTE_DUAL_CLU_TRANS_EVEN",      "path": "Transmission", "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                     "unit": "scalar"  }, "name": "Dual-clutch transmission even shaft, gear engaged"},
