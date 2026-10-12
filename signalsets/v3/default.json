@@ -120,7 +120,7 @@
     {"id": "FORTE_STEER_ANGLE",    "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
     {"id": "FORTE_BRAKE_P",        "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "FORTE_VSS_AVG_V2",         "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Average wheel speed"},
     {"id": "FORTE_TIRE_FL_VSS_V2_7D1", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
@@ -145,11 +145,11 @@
     {"id": "FORTE_RL_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "FORTE_RR_WHEEL_VSS", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2013, "years": [2015], "from": 2018 },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "years": [2015], "from": 2018 },
   "signals": [
     {"id": "FORTE_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 72, "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022] },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "filter": { "to": 2012, "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2021, 2022] },
   "signals": [
     {"id": "FORTE_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "amps" }, "name": "Motor-driven power steering current"}
   ]},
@@ -172,7 +172,7 @@
     {"id": "FORTE_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
     {"id": "FORTE_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2015], "from": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2015], "from": 2018 },
   "signals": [
     {"id": "FORTE_MIS_1", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfire count #1"},
     {"id": "FORTE_MIS_2", "path": "Engine", "fmt": {"bix": 72,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfire count #2"},
@@ -531,7 +531,7 @@
     {"id": "FORTE_BAT_V",                "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 71.535,                  "mul": 10,    "div": 10000, "add": 6,                 "unit": "volts"       }, "name": "Battery voltage"},
     {"id": "FORTE_BAT_T",                "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 32767.5,                               "div": 2,                               "unit": "celsius"     }, "name": "Battery temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015], "from": 2017 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2017 },
   "signals": [
     {"id": "FORTE_VSS_V3", "path": "Movement",     "fmt": {"bix": 48,  "len": 8, "max": 255,                         "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
     {"id": "FORTE_ATF_T",  "path": "Transmission", "fmt": {"bix": 104, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
@@ -561,7 +561,7 @@
     {"id": "FORTE_COMMANDED_GEAR",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
     {"id": "FORTE_BRAKE_PEDAL",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "dbgfilter": { "to": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A4"}, "freq": 1, "filter": { "to": 2012, "from": 2018 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "FORTE_GEAR_CUR",   "path": "Transmission", "fmt": {"bix": 188, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Current gear"},
     {"id": "FORTE_GEAR_NXT",   "path": "Transmission", "fmt": {"bix": 196, "len": 4,  "max": 15,                                    "unit": "scalar"  }, "name": "Next gear"},
@@ -578,7 +578,7 @@
     {"id": "FORTE_DUAL_CLU_TRANS_CLU_2_P_B", "path": "Engine",       "fmt": {"bix": 208, "len": 16, "max": 127,             "mul": 19.53, "div": 10000,             "unit": "bars"    }, "name": "Dual-clutch transmission clutch 2, pressure sensor b"},
     {"id": "FORTE_DUAL_CLU_TRANS_LINE_P_C",  "path": "Engine",       "fmt": {"bix": 224, "len": 16, "max": 127,             "mul": 19.53, "div": 10000,             "unit": "bars"    }, "name": "Dual-clutch transmission line pressure, sensor c"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2016, "from": 2018 },
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"21": "01"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "FORTE_VSS_V2", "path": "Movement", "fmt": {"bix": 104, "len": 16, "blsb": true, "max": 180, "min": -180, "div": 100, "sign": true, "unit": "milesPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed"}
   ]},
